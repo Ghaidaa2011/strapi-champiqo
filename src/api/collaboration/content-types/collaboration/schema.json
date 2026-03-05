@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "collaborations",
+  "info": {
+    "singularName": "collaboration",
+    "pluralName": "collaborations",
+    "displayName": "collaboration"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "collab title",
+      "required": true
+    },
+    "category": {
+      "type": "string",
+      "default": "collab category",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "default": "collab description",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "link": {
+      "type": "string",
+      "default": "collab link",
+      "required": true
+    }
+  }
+}
