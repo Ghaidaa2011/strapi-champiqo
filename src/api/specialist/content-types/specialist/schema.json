@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "specialists",
+  "info": {
+    "singularName": "specialist",
+    "pluralName": "specialists",
+    "displayName": "specialists"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "specialist title",
+      "required": true
+    },
+    "category": {
+      "type": "string",
+      "default": "specialist category",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "default": "specialist description",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    }
+  }
+}
